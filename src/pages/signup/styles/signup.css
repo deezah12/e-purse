@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.signup-main-ctn{
+    display: flex;
+    flex-direction: row; 
+    /* padding: 0.1%; */
+    /* position: relative; */
+    
+}
+
+
+.signup-img{
+    width: 800px;
+    height: 687px;
+}
+.welcome{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+
+}
+.signup-txt{
+    
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.sign-up-form{
+    padding: 5%;
+}
+.form-group input{
+    width: 400px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    margin: 3%;
+   
+}
+
+
+.sign-up-button button{    
+    padding: 1%;
+    width: 500px;
+    background-color: #55229E;
+    color: white;
+    border-radius: 7.5px;
+    border: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.eye-icon{
+    top: -45px;
+    position: relative;
+}
+
+.login-ctn{
+    display: flex;
+    gap: 40%;
+}
+.login-ctn p{
+    /* padding-top: -10%; */
+}
