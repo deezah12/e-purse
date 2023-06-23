@@ -4,8 +4,6 @@
 .signup-main-ctn{
     display: flex;
     flex-direction: row; 
-    /* padding: 0.1%; */
-    /* position: relative; */
     
 }
 
@@ -38,6 +36,7 @@
 }
 .sign-up-form{
     padding: 5%;
+    margin-bottom: -10%;
 }
 .form-group input{
     width: 400px;
@@ -55,9 +54,9 @@
 }
 
 
-.sign-up-button button{    
+.sign-up-button {    
     padding: 1%;
-    width: 500px;
+    width: 110%;
     background-color: #55229E;
     color: white;
     border-radius: 7.5px;
@@ -68,7 +67,8 @@
     line-height: 42px;
     letter-spacing: 0em;
     text-align: center;
-
+    margin-top: 10%;
+    margin-left: 3%;
 }
 .eye-icon{
     top: -45px;
@@ -76,9 +76,22 @@
 }
 
 .login-ctn{
+    padding-left: 9%;
     display: flex;
-    gap: 40%;
+    gap: 38%;
+    
 }
-.login-ctn p{
-    /* padding-top: -10%; */
+.acct-tag{
+    font-family: Roboto;
+    /* font-size: px; */
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    color: #C4C4C4;
+}
+
+.form-ctn{
+    padding: 4%;
 }
